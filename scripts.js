@@ -12,8 +12,8 @@ $( "li" ).hover(function() {
 				$(this).stop().animate({"opacity": "1"}, "slow");
 			});		 
 
-$("li").on("click", function() {
-    $(this).css("background", "red");
+$( "li" ).on("click", function() {
+    $(this).css("background", "#e699ff");
 })
 
 
